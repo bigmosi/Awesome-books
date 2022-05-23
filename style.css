@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    width: 10%;
+}
+
+form {
+    text-align: center;
+    position: relative;
+    left: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+.title {
+    width: 20%;
+    margin: 10px;
+    height: 2vh;
+}
+
+.text-1 {
+    text-align: left;
+    cursor: pointer;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin-top: -15px;
+}
+
+.btn {
+    margin-top: -15px;
+}
