@@ -1,42 +1,42 @@
 .container {
-    text-align: center;
-    width: 10%;
+  text-align: center;
+  width: 10%;
 }
 
 form {
-    text-align: center;
-    position: relative;
-    left: 5%;
+  text-align: center;
+  position: relative;
+  left: 5%;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 hr {
-    width: 50%;
+  width: 50%;
 }
 
 .title {
-    width: 20%;
-    margin: 10px;
-    height: 2vh;
+  width: 20%;
+  margin: 10px;
+  height: 2vh;
 }
 
 .text-1 {
-    text-align: left;
-    cursor: pointer;
+  text-align: left;
+  cursor: pointer;
 }
 
 .container-1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 .btn {
-    margin-top: -15px;
+  margin-top: -15px;
 }
