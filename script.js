@@ -19,14 +19,14 @@ class Books {
     this.BookObj.push({
       id: this.BookObj.length,
       title: book.value,
-      author: author.value
+      author: author.value,
     });
     localStorage.setItem('BOOKS_LIST', JSON.stringify(this.BookObj));
   }
 
   remove(element) {
     const { id } = element.dataset;
-    element.parentElement.remove()
+    element.parentElement.remove();
     this.BookObj.splice(this.BookObj.findIndex((item) => item.id === parseInt(id, 10)), 1);
     localStorage.setItem('BOOKS_LIST', JSON.stringify(this.BookObj));
   }
