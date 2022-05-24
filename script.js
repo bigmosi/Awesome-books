@@ -60,7 +60,7 @@ const books = new Books();
 function addBook() {
   books.add(bookTitle, bookAuthor);
   checkLocalStorage();
-  loadContent();
+  // loadContent();
 }
 
 /* eslint-disable */
