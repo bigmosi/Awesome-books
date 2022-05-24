@@ -20,9 +20,9 @@
 
 👤 **Ndikumana Isaie**
 
-- GitHub: [gitHub](https://github.com/ndikumanaisaie)
-- Twitter: [twitter](https://twitter.com/Ndikuma38670724)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
+- GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
+- Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
+- LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## 🤝 Contributing
 
@@ -45,5 +45,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./MIT.md) licensed.
 
 ## Link to URL on browser
-
+- Awesome Books: [Awesome Books](https://bigmosi.github.io/Awesome-books/)
 
