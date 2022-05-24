@@ -1,56 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> Description the project.
-
+> This project is a book collection basic website that allows users to add/remove books from a list
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- CSS
+- HTML
+- Javascript
 
 ## Authors
 
-👤 **Author1**
+👤 **Kinyera Amos**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@bigmosi](https://github.com/bigmosi/)
+- Twitter: [@kinyera_amos](https://twitter.com/kinyera_amos)
+- LinkedIn: [kinyera-amos-026062218](https://linkedin.com/in/kinyera-amos-026062218)
 
-👤 **Author2**
+👤 **Ndikumana Isaie**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [ndikumanaisaie](https://github.com/ndikumanaisaie)
+- Twitter: [Ndikuma38670724](https://twitter.com/Ndikuma38670724)
+- LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## 🤝 Contributing
 
@@ -71,3 +43,7 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Link to URL on browser
+- Awesome Books: [Awesome Books](https://bigmosi.github.io/Awesome-books/)
+
