@@ -25,7 +25,7 @@ const newBook = (title, author) => {
     <button class="remove">delete</button>
     <hr/>
     </div>`;
-    myForm.reset();
+  myForm.reset();
 };
 
 // Remove book from store function
