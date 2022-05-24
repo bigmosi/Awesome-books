@@ -12,18 +12,19 @@ newDiv.classList.add('mylist');
 bookList.appendChild(newDiv);
 
 const newBook = (title, author) => {
-    const data = {
-        bookTitle: title,
-        bookAuthor: author,
-    };
-    bookData.push(data);
-    localStorage.setItem('book', JSON.stringify(bookData));
-    newDiv.innerHTML += `<div>
-          <p><strong>${data.bookTitle}</strong></p>
-          <p><strong>${data.bookAuthor}</strong></p>
-          <button class="remove">delete</button>
-          <hr/>
-          </div>`;
+  const data = {
+    bookTitle: title,
+    bookAuthor: author,
+  };
+
+  bookData.push(data);
+  localStorage.setItem('book', JSON.stringify(bookData));
+  newDiv.innerHTML += `<div>
+    <p><strong>${data.bookTitle}</strong></p>
+    <p><strong>${data.bookAuthor}</strong></p>
+    <button class="remove">delete</button>
+    <hr/>
+    </div>`;
     myForm.reset();
 };
 
@@ -61,13 +62,12 @@ const getDataFromStore = () => {
 // Calling the newBook function
 
 addBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    if (title.value.trim() === '') return;
-    if (author.value.trim() === '') return;
-    newBook(title.value, author.value);
+  e.preventDefault();
+  if (title.value.trim() === '') return;
+  if (author.value.trim() === '') return;
+  newBook(title.value, author.value);
 });
 
 removeBook();
 
 getDataFromStore();
-
