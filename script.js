@@ -58,3 +58,16 @@ const getDataFromStore = () => {
   });
 };
 
+// Calling the newBook function
+
+addBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (title.value.trim() === '') return;
+    if (author.value.trim() === '') return;
+    newBook(title.value, author.value);
+});
+
+removeBook();
+
+getDataFromStore();
+
