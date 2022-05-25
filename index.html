@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
             rel="stylesheet"
@@ -13,16 +13,26 @@
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1>Awesome Books</h1>
+    <h1  onclick="this.innerHTML='Amos!'">Awesome Books</h1>
+    <h2 class="list-title"></h2>
+
     <div class="book-list" id="book-list">
-        
     </div>
-    <form action="#" id="form">
-        <label for="book-title"></label>
-        <input type="text" id="book-title" placeholder="Title" /> <br><br>
+    <h2 id="list-title" class="list-title"></h2>
+
+         <div class="horizontal-line">
+             <hr>
+         </div>
+
+    <form action="#" id="form" class="form-data">
+        <h3>Add a new book</h3>
+        <label for="title"></label>
+        <input type="text" id="title" placeholder="Title" class="text-input" /> <br><br>
         <label for="author"></label>
-        <input type="text" id="author" placeholder="Author" /><br><br>
-        <button type="submit" class="btn" id="btn">Add</button>
+        <input type="text" id="author" placeholder="Author" class="text-input" /><br><br>
+        <div class="btn-container">
+            <button type="submit" class="btn" id="btn-1" onclick="book.addBook()">Add</button>
+        </div>
     </form>
 <script src="script.js"></script>
 </body>
