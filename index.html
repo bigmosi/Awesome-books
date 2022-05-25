@@ -13,24 +13,25 @@
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1 class="title">Awesome Books</h1>
-    <div class="main-list">
-        <div class="list-container">
-            <div class="book-list" id="book-list">
-            </div>
-        </div>
+    <h1  onclick="this.innerHTML='Amos!'">Awesome Books</h1>
+    <h2 class="list-title"></h2>
+
+    <div class="book-list" id="book-list">
     </div>
-    <div class="hori">
-        <hr>
-    </div>
+    <h2 id="list-title" class="list-title"></h2>
+
+         <div class="horizontal-line">
+             <hr>
+         </div>
+
     <form action="#" id="form" class="form-data">
         <h3>Add a new book</h3>
-        <label for="book"></label>
-        <input type="text" id="book" placeholder="Title" class="text-input" /> <br><br>
+        <label for="title"></label>
+        <input type="text" id="title" placeholder="Title" class="text-input" /> <br><br>
         <label for="author"></label>
         <input type="text" id="author" placeholder="Author" class="text-input" /><br><br>
         <div class="btn-container">
-            <button type="submit" class="btn" id="btn-1">Add</button>
+            <button type="submit" class="btn" id="btn-1" onclick="book.addBook()">Add</button>
         </div>
     </form>
 <script src="script.js"></script>
