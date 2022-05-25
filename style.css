@@ -3,3 +3,84 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.title {
+  margin-top: 30px;
+}
+
+.form-data {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.book-container:nth-of-type(odd) {
+  background: #e0e0e0;
+}
+
+.btn-1 {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.btn {
+  text-align: right;
+  margin-left: 100px;
+  width: 70px;
+  padding-right: 30px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 4px 7px 4px 0 #000;
+}
+
+.text-input {
+  height: 4vh;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #000;
+}
+
+.btn-container {
+  position: relative;
+  left: 2%;
+}
+
+.book-list {
+  text-align: center;
+  border: 4px solid #000;
+  margin: 0 auto;
+}
+
+.board {
+  border-bottom: 2px solid;
+}
+
+hr {
+  width: 10%;
+  background-color: #000;
+}
+
+.hori {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-list {
+  display: flex;
+  justify-content: center;
+}
+
+.form-data h3 {
+  margin-bottom: 20px;
+}
