@@ -13,27 +13,56 @@
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1  onclick="this.innerHTML='Amos!'">Awesome Books</h1>
-    <h2 class="list-title"></h2>
+<header>
+    <nav class="nav-link">
+        <a href="#">Awesome Books</a>
+        <ul class="list-link">
+            <li class="list-item"><a href="#" class="links-all">List</a></li>
+            <li class="add-link"><a href="#" class="add">Add New</a></li>
+            <li class="contact-link"> <a href="#" class="contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="date"></div>
+</header>
+    <div class="all">
+        <h1>All awesome Books</h1>
+       <h2 class="list-title"></h2>
+        <div class="book-list" id="book-list">
+        </div>
+    <div>
 
-    <div class="book-list" id="book-list">
+    </div>
     </div>
     <h2 id="list-title" class="list-title"></h2>
 
-         <div class="horizontal-line">
-             <hr>
-         </div>
+<!--         <div class="horizontal-line">-->
+<!--             <hr>-->
+<!--         </div>-->
+    <div class="main-container">
+        <h2>Contact information</h2>
+        <p>Do have any questions or you just want to say "Hello"? You can reach out to us!</p>
+        <ul>
+            <li>Our e-mail kinyeramo@gmail.com</li>
+            <li>Our phone number +256777349597</li>
+            <li>Our address Streetname 22, 84503 City, Country</li>
+        </ul>
+    </div>
 
     <form action="#" id="form" class="form-data">
         <h3>Add a new book</h3>
-        <label for="title"></label>
-        <input type="text" id="title" placeholder="Title" class="text-input" /> <br><br>
-        <label for="author"></label>
-        <input type="text" id="author" placeholder="Author" class="text-input" /><br><br>
+        <div class="input-container">
+            <label for="title"></label>
+            <input type="text" id="title" placeholder="Title" class="text-input" /> <br><br>
+            <label for="author"></label>
+            <input type="text" id="author" placeholder="Author" class="text-input" /><br><br>
+        </div>
         <div class="btn-container">
             <button type="submit" class="btn" id="btn-1" onclick="book.addBook()">Add</button>
         </div>
     </form>
+    <footer>
+        <p class="copy-right">copyright   ...</p>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>

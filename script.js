@@ -65,3 +65,47 @@ const author = document.getElementById('author');
 
 const book = new Books(title, author);
 book.displayBooks();
+
+const list = document.querySelector('.list-item');
+const allSection = document.querySelector('.all');
+const inputSection = document.querySelector('.form-data');
+const contactUs = document.querySelector('.main-container');
+const linksAll = document.querySelector('.links-all');
+const linksAdd = document.getElementById('.add');
+const copyRight = document.querySelector('.copy-right');
+const linksContact = document.querySelector('.links-contact');
+const addLink = document.querySelector('.add');
+const contactSection = document.querySelector('.main-container');
+const contactLink = document.querySelector('.contact-link');
+
+list.addEventListener('click', (e) => {
+  e.preventDefault();
+  allSection.style.display = 'flex';
+  inputSection.style.display = 'none';
+  contactUs.style.display = 'none';
+  copyRight.style.marginTop = '5%';
+  linksAll.style.color = 'blue';
+  linksAdd.style.color = 'black';
+  linksContact.style.color = 'black';
+});
+addLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  allSection.style.display = 'none';
+  inputSection.style.display = 'flex';
+  contactSection.style.display = 'none';
+  copyRight.style.marginTop = '23%';
+  linksAdd.style.color = 'blue';
+  linksAll.style.color = 'black';
+  linksContact.style.color = 'black';
+});
+
+contactLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  allSection.style.display = 'none';
+  inputSection.style.display = 'none';
+  contactSection.style.display = 'flex';
+  copyRight.style.marginTop = '19%';
+  linksContact.style.color = 'blue';
+  linksAdd.style.color = 'black';
+  linksAll.style.color = 'black';
+});
