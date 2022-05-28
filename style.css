@@ -11,6 +11,9 @@
 .form-data {
   text-align: center;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -19,7 +22,6 @@ h1 {
 }
 
 table {
-  width: 50%;
   margin-top: 15px;
 }
 
@@ -105,4 +107,70 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+}
+
+.list-link {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+.list-link li {
+  list-style-type: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #000;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-container h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.main-container ul {
+  margin-bottom: 20px;
+  line-height: 1.5rem;
+}
+
+.main-container li {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 300px;
+  text-align: left;
+  font-size: 20px;
+  border: 2px solid #000;
+}
+
+.main-container p {
+  font-size: 18px;
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
 }
