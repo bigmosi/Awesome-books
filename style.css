@@ -159,15 +159,15 @@ hr {
   text-align: center;
 }
 
-.main-container p {
-  font-size: 18px;
-}
-
 footer p {
   margin-top: 300px;
   text-align: left;
   font-size: 20px;
   border: 2px solid #000;
+}
+
+.main-container p {
+  font-size: 18px;
 }
 
 .all {
