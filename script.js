@@ -77,6 +77,14 @@ const linksContact = document.querySelector('.links-contact');
 const addLink = document.querySelector('.add');
 const contactSection = document.querySelector('.main-container');
 const contactLink = document.querySelector('.contact-link');
+const time = document.getElementById('time');
+const menuList = document.querySelectorAll('.nav-item');
+
+window.addEventListener('load', () => {
+  menuList[0].classList.add('active');
+  inputSection.style.display = 'none';
+  contactSection.style.display = 'none';
+});
 
 list.addEventListener('click', (e) => {
   e.preventDefault();
@@ -109,3 +117,10 @@ contactLink.addEventListener('click', (e) => {
   linksAdd.style.color = 'black';
   linksAll.style.color = 'black';
 });
+
+const today = new Date();
+const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+const mytime = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
+const dateTime = `${date} ${mytime}`;
+
+time.innerHTML = dateTime;

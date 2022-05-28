@@ -23,13 +23,14 @@ h1 {
 
 table {
   margin-top: 15px;
+  width: 50vw;
 }
 
 td {
   border: 1px solid rgb(221, 221, 221);
-  height: 3vh;
   text-align: left;
   font-size: 18px;
+  height: 5vh;
 }
 
 tr:nth-child(even) {
@@ -58,11 +59,11 @@ tr:nth-child(even) {
   padding-left: 10px;
   cursor: pointer;
   box-shadow: 4px 7px 4px 0 #000;
-  height: 3vh;
+  height: 5vh;
 }
 
 .text-input {
-  height: 3vh;
+  height: 5vh;
   padding: 5px;
   margin-top: 5px;
   width: 30%;
@@ -173,4 +174,10 @@ footer p {
 .all {
   display: flex;
   flex-direction: column;
+}
+
+.time {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 20px;
 }
